@@ -1,5 +1,5 @@
-import pic1 from "../assets/images/expertise.jpg";
-import pic2 from "../assets/images/goals.jpg";
+import pic1 from "../assets/images/expertise-photo.jpg";
+import pic2 from "../assets/images/goals-photo.jpg";
 
 const About = () => {
   return (
@@ -97,7 +97,7 @@ const About = () => {
               </label>
               <div className="w-full bg-white/50 rounded-full h-2">
                 <div className="bg-cyan-400 h-2 rounded-full"
-                style={{ width: "90%"}}>
+                style={{ width: "60%"}}>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ const About = () => {
               </label>
               <div className="w-full bg-white/50 rounded-full h-2">
                 <div className="bg-cyan-400 h-2 rounded-full"
-                style={{ width: "75%"}}>
+                style={{ width: "80%"}}>
                 </div>
               </div>
             </div>
@@ -120,13 +120,13 @@ const About = () => {
               </label>
               <div className="w-full bg-white/50 rounded-full h-2">
                 <div className="bg-cyan-400 h-2 rounded-full"
-                style={{ width: "75%"}}>
+                style={{ width: "80%"}}>
                 </div>
               </div>
             </div>
           </div>
           <h3 className="text-2xl font-bold mt-4 mb-2">0.4. Approach</h3>
-          <p className="text-cyan">
+          <p className="text-black">
             I believe in writing clean, maintainable code and following best practices. My approach involves understanding client needs, planning thoroughly and delivering high-quality solution on time.
           </p>
         </div>
@@ -141,7 +141,7 @@ const About = () => {
 
           </div>
           <h3 className="text-2xl font-bold mt-2 mb-2">0.5. Goals</h3>
-          <p className="text-cyan">
+          <p className="text-black">
             My goal is to continue growing as a developer, tackling challenges projects and contributing to the tech community. I'm always excited to learn new technologies and push the boundaries of what's possible in web development.
           </p>
         </div>

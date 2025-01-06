@@ -1,6 +1,6 @@
 import { useAnimation, motion } from 'framer-motion';
 import { useEffect } from 'react'
-import { SiFigma, SiNodedotjs, SiReact } from 'react-icons/si';
+import { SiLaravel, SiFigma, SiReact, SiNextdotjs, SiMysql } from 'react-icons/si';
 import { useInView } from 'react-intersection-observer';
 
   const stackItems = [
