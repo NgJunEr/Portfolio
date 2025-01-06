@@ -1,5 +1,5 @@
-import pic1 from "../assets/images/expertise.png";
-import pic2 from "../assets/images/goals.png";
+import pic1 from "../assets/images/expertise.jpg";
+import pic2 from "../assets/images/goals.jpg";
 
 const About = () => {
   return (
