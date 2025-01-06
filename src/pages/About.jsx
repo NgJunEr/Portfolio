@@ -1,4 +1,5 @@
-import React from 'react'
+import pic1 from "../assets/images/expertise.png";
+import pic2 from "../assets/images/goals.png";
 
 const About = () => {
   return (
@@ -41,11 +42,11 @@ const About = () => {
           </p>
 
           <div className="mt-4 relative border border-white rounded-lg p-4 h-[220px] overflow-hidden">
-            {/*<img 
-              src={project1}
+            <img 
+              src={pic1}
               alt="Project 1"
               className="absolute inset-0 w-full object-cover"
-            />*/}
+            />
           </div>
         </div>
 
@@ -132,11 +133,11 @@ const About = () => {
 
         <div className="border border-white rounded-lg p-6 flex flex-col justify justify-between">
           <div className="relative border border-white rounded-lg p-4 h-[200px] overflow-hidden">
-            {/*<img 
-              src={project2}
+            <img 
+              src={pic2}
               alt="Project 2"
               className="absolute inset-0 w-full h-full object-cover"
-            />*/}
+            />
 
           </div>
           <h3 className="text-2xl font-bold mt-2 mb-2">0.5. Goals</h3>

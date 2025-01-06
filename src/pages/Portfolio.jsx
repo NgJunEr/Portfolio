@@ -1,37 +1,17 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from "framer-motion";
-import proj1 from "../assets/images/testlogo.png";
-import proj2 from "../assets/images/testlogo.png";
-import proj3 from "../assets/images/testlogo.png";
+import proj1 from "../assets/images/project-1.png";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
 
 const projects = [{
-  title:"C2C E-commerce",
-  description:"C2C E-commerce with a 3 different user roles of Buyer, Seller and Admin. This can allow user to create account and buy second hand product or sell their own second hand item through our website.",
-  devstack:"Tailwind, Laravel, Breeze Auth, SQL",
+  title:"C2C E-commerce Platform",
+  description:"From solving E-waste and to design, develop and deploy this C2C E-commerce with a 3 different user roles of Buyer, Seller and Admin. This platform allows user to create account and buy second hand product or sell their own second hand item through our website.",
+  devstack:"HTML, CSS, Tailwind, PHP, Laravel, Figma, SQL, Breeze Auth",
   link:"#",
   git:"#",
   src: proj1,
-  type:"fullstack",
-},
-{
-  title:"C2C E-commerce",
-  description:"C2C E-commerce with a 3 different user roles of Buyer, Seller and Admin",
-  devstack:"Tailwind, Laravel, Breeze Auth, SQL",
-  link:"#",
-  git:"#",
-  src: proj2,
-  type:"fullstack",
-},
-{
-  title:"C2C E-commerce",
-  description:"C2C E-commerce with a 3 different user roles of Buyer, Seller and Admin",
-  devstack:"Tailwind, Laravel, Breeze Auth, SQL",
-  link:"#",
-  git:"#",
-  src: proj3,
   type:"fullstack",
 },
 ];

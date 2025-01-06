@@ -1,14 +1,13 @@
 import { useAnimation, motion } from 'framer-motion';
 import { useEffect } from 'react'
-import { FaLemon } from 'react-icons/fa'
-import { SiFigma, SiFramer, SiNodedotjs, SiReact } from 'react-icons/si';
+import { SiFigma, SiNodedotjs, SiReact } from 'react-icons/si';
 import { useInView } from 'react-intersection-observer';
 
   const stackItems = [
     {
       id:1,
-      name: "Framer",
-      icon: <SiFramer size={100} />,
+      name: "Laravel",
+      icon: <SiLaravel size={100} />,
       color: "text-cyan-500"
     },
     {
@@ -25,14 +24,14 @@ import { useInView } from 'react-intersection-observer';
     },
     {
       id:4,
-      name: "Node.js",
-      icon: <SiNodedotjs size={100} />,
+      name: "Next.js",
+      icon: <SiNextdotjs size={100} />,
       color: "text-cyan-500"
     },
     {
       id:5,
-      name: "Lemon Squeezy",
-      icon: <FaLemon size={100} />,
+      name: "MySQL",
+      icon: <SiMysql size={100} />,
       color: "text-cyan-500"
     },
   ];
